@@ -18,7 +18,7 @@ public extension Lock_Dto.Secret.Write {
     struct Req: Codable {
         public let externalId: String?
         public let description: String?
-        public let tags: [String]?
+        public let tag: String?
         public let key: String
         public let data: Data
         
@@ -27,13 +27,13 @@ public extension Lock_Dto.Secret.Write {
         public init(
             externalId: String?,
             description: String?,
-            tags: [String]?,
+            tag: String?,
             key: String,
             data: Data
         ) {
             self.externalId = externalId
             self.description = description
-            self.tags = tags
+            self.tag = tag
             self.key = key
             self.data = data
         }
