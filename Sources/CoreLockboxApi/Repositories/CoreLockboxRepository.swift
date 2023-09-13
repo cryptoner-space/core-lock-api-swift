@@ -1,5 +1,5 @@
 //
-//  CoreProviderInfoRepository.swift
+//  CoreLockboxRepository.swift
 //  Cryptoner-iOS
 //
 //  Created by skibinalexander on 20.08.2023.
@@ -8,7 +8,7 @@
 import Foundation
 import BlockchainSdk
 
-public protocol CoreLockRepository {
+public protocol CoreLockboxRepository {
     
     /// Obtain data encryption key
     func dekEncrypt(
