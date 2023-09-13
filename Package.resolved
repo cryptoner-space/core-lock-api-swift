@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "bigint",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/attaswift/BigInt.git",
+      "state" : {
+        "revision" : "0ed110f7555c34ff468e72e1686e59721f2b0da6",
+        "version" : "5.3.0"
+      }
+    },
+    {
+      "identity" : "blockchain-sdk-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/cryptoner-space/blockchain-sdk-swift.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "4d58a9e89d6fbcd759896dd5661c84cf7f9230ed"
+      }
+    }
+  ],
+  "version" : 2
+}
