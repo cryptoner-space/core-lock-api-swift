@@ -3,3 +3,5 @@ Sources/CoreLockApi/Data/.DS_Store
 Sources/CoreLockApi/Data/Dto/.DS_Store
 Sources/.DS_Store
 .DS_Store
+*.xcuserstate
+
