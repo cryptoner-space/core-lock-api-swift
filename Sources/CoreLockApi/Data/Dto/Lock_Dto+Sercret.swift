@@ -58,7 +58,7 @@ public extension Lock_Dto.Secret.Read {
     struct Res: Codable {
         public let id: UUID
         public let externalId: String?
-        public let tags: [String]?
+        public let tag: String?
         public let description: String?
         public let dataKeyCiphertext: String
         public let dataKeyPlaintext: String
@@ -69,7 +69,7 @@ public extension Lock_Dto.Secret.Read {
         public init(
             id: UUID,
             externalId: String?,
-            tags: [String]?,
+            tag: String?,
             description: String?,
             dataKeyCiphertext: String,
             dataKeyPlaintext: String,
@@ -77,7 +77,7 @@ public extension Lock_Dto.Secret.Read {
         ) {
             self.id = id
             self.externalId = externalId
-            self.tags = tags
+            self.tag = tag
             self.description = description
             self.dataKeyCiphertext = dataKeyCiphertext
             self.dataKeyPlaintext = dataKeyPlaintext
